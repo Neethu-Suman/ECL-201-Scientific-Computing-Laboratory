@@ -26,66 +26,75 @@ o	PYTHON's Power of Computational Mathematics
 
 Python is a versatile language widely used in various computational mathematics fields. Here are some commonly used mathematical calculations where Python excels:
 
-    •	Dealing with Matrices and Arrays: Using libraries such as NumPy and SciPy.
+•	Dealing with Matrices and Arrays: Using libraries such as NumPy and SciPy.
 
-    •	2-D and 3-D Plotting and Graphics: Utilizing Matplotlib, Seaborn, and Plotly.
+•	2-D and 3-D Plotting and Graphics: Utilizing Matplotlib, Seaborn, and Plotly.
 
-    •	Linear Algebra: Implemented through NumPy and SciPy.
+•	Linear Algebra: Implemented through NumPy and SciPy.
 
-    •	Algebraic Equations: Solving with SymPy and NumPy.
+•	Algebraic Equations: Solving with SymPy and NumPy.
 
-    •	Non-linear Functions: Handled by SciPy and SymPy.
+•	Non-linear Functions: Handled by SciPy and SymPy.
 
-    •	Statistics: Achieved with libraries like pandas, SciPy, and Statsmodels.
+•	Statistics: Achieved with libraries like pandas, SciPy, and Statsmodels.
 
-    •	Data Analysis: Performed using pandas and NumPy.
+•	Data Analysis: Performed using pandas and NumPy.
 
-    •	Calculus and Differential Equations: Solved with SymPy and SciPy.
+•	Calculus and Differential Equations: Solved with SymPy and SciPy.
 
-    •	Numerical Calculations: Conducted through NumPy and SciPy.
+•	Numerical Calculations: Conducted through NumPy and SciPy.
 
-    •	Integration: Executed by SciPy and SymPy.
+•	Integration: Executed by SciPy and SymPy.
 
-    •	Transforms: Managed by NumPy and SciPy (Fourier transforms, Laplace transforms).
+•	Transforms: Managed by NumPy and SciPy (Fourier transforms, Laplace transforms).
 
-    •	Curve Fitting: Performed using SciPy, NumPy, and Statsmodels.
+•	Curve Fitting: Performed using SciPy, NumPy, and Statsmodels.
 
-    •	Machine Learning: Implemented via scikit-learn, TensorFlow, and PyTorch.
+•	Machine Learning: Implemented via scikit-learn, TensorFlow, and PyTorch.
 
-    •	Optimization: Accomplished with SciPy and CVXPY.
+•	Optimization: Accomplished with SciPy and CVXPY.
 
-    •	Symbolic Mathematics: Handled by SymPy.
+•	Symbolic Mathematics: Handled by SymPy.
 
-    •	Various other special functions: Provided by SciPy and mpmath.
+•	Various other special functions: Provided by SciPy and mpmath.
 
 Each of these libraries and tools provides robust functionality, making Python a powerful language for a wide range of mathematical and computational tasks.
 
-    o	 Features of  Python
+o	 Features of  Python
 
 Following are the basic features of Python
 
-    ●	High-level Language: Python is a high-level language for numerical computation, visualization, and application development.
+●	High-level Language: Python is a high-level language for numerical computation, visualization, and application development.
 
-    ●	Interactive Environment: It provides an interactive environment through tools like Jupyter Notebook and IPython for iterative exploration, design, and problem-solving.
+●	Interactive Environment: It provides an interactive environment through tools like Jupyter Notebook and IPython for iterative exploration, design, and problem-solving.
 
-    ●	Extensive Libraries: Python offers a vast library of mathematical functions through libraries like NumPy, SciPy, and SymPy for linear algebra, statistics, Fourier analysis, filtering, optimization, numerical integration, and solving ordinary differential equations.
+●	Extensive Libraries: Python offers a vast library of mathematical functions through libraries like NumPy, SciPy, and SymPy for linear algebra, statistics, Fourier analysis, filtering, optimization, numerical integration, and solving ordinary differential equations.
 
-    ●	Built-in Graphics: It provides built-in graphics for visualizing data through libraries like Matplotlib, Seaborn, and Plotly, and tools for creating custom plots.
+●	Built-in Graphics: It provides built-in graphics for visualizing data through libraries like Matplotlib, Seaborn, and Plotly, and tools for creating custom plots.
 
-    ●	Programming Interface: Python's programming interface includes development tools such as IDEs (PyCharm, VS Code) and code analysis tools (pylint, mypy) for improving code quality, maintainability, and maximizing performance.
+●	Programming Interface: Python's programming interface includes development tools such as IDEs (PyCharm, VS Code) and code analysis tools (pylint, mypy) for improving code quality, maintainability, and maximizing performance.
 
-    ●	Application Development: It offers tools for building applications with custom graphical interfaces using frameworks like Tkinter, PyQt, and Kivy.
+●	Application Development: It offers tools for building applications with custom graphical interfaces using frameworks like Tkinter, PyQt, and Kivy.
+
 ●	Integration: Python provides functions for integrating Python-based algorithms with external applications and languages such as C, C++, Java, .NET, and Microsoft Excel through libraries like ctypes, Cython, and Py4J.
+
 o	Uses of  Python
+
 ●	Python is widely used as a computational tool in science and engineering, encompassing fields such as physics, chemistry, mathematics, and all engineering streams. It is used in a range of applications including:
+
 ●	Signal Processing and Communications: Using libraries like SciPy and NumPy for digital signal processing, communication systems, and signal analysis.
+
 ●	Image and Video Processing: Through libraries such as OpenCV, PIL (Pillow), and scikit-image for image analysis, enhancement, and video processing.
+
 ●	Control Systems: Implemented via libraries like control and SciPy for designing and analyzing control systems.
+
 ●	Test and Measurement: Using tools like PyVISA, pySerial, and pandas for data acquisition, instrument control, and automated testing.
+
 ●	Computational Finance: Leveraging libraries such as pandas, NumPy, and QuantLib for quantitative analysis, financial modeling, and algorithmic trading.
+
 ●	Computational Biology: Utilizing libraries like Biopython, SciPy, and pandas for bioinformatics, genomics, and computational biology research.
 
-LAB EXERCISE
+**LAB EXERCISE**
 (a) Needs and requirements in scientific computing
 Scientific Computing is the collection of tools, techniques, and theories required to solve on a computer mathematical model of problems in Science and Engineering.
 A majority of these tools, techniques, and theories originally developed in Mathematics, many of them having their genesis long before the advent of electronic computers. This set of mathematical theories and techniques is called Numerical Analysis (or Numerical Mathematics) and constitutes a major part of scientific computing. 
