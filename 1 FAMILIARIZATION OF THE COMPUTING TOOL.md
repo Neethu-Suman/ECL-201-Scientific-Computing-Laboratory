@@ -95,53 +95,93 @@ o	Uses of  Python
 ●	Computational Biology: Utilizing libraries like Biopython, SciPy, and pandas for bioinformatics, genomics, and computational biology research.
 
 **LAB EXERCISE**
-(a) Needs and requirements in scientific computing
+
+**(a) Needs and requirements in scientific computing**
+
 Scientific Computing is the collection of tools, techniques, and theories required to solve on a computer mathematical model of problems in Science and Engineering.
+
 A majority of these tools, techniques, and theories originally developed in Mathematics, many of them having their genesis long before the advent of electronic computers. This set of mathematical theories and techniques is called Numerical Analysis (or Numerical Mathematics) and constitutes a major part of scientific computing. 
+
 The development of the electronic computer, however, signaled a new era in the approach to the solution of scientific problems. Many of the numerical methods that had been developed for the purpose of hand calculation (including the use of desk calculators for the actual arithmetic) had to be revised and sometimes abandoned. Many of these considerations – programming languages, operating systems, management of large quantities of data, correctness of programs – were subsumed under the new discipline of Computer Science, on which scientific computing now depends heavily. But mathematics itself continues to play a major role in scientific computing: it provides the language of the mathematical models that are to be solved and information about the suitability of a model. In summary, then, scientific computing draws on mathematics and computer science to develop the best way to use computer systems to solve problems from science and engineering.
-(b) Familiarization of  Python
+
+**(b) Familiarization of  Python**
+
 There are various IDEs in the market to select from such as Spyder, Atom, Pycharm, Pydev etc. Data scientist prefer Spyder among all the different IDEs available and the driving fact behind this is that Spyder was built specifically to be used for data science. Its interface allows the user to scroll through various data variables and also ready to use online help option. The output of the code can be viewed in the python console on the same screen. You can work on different scripts at a moment and then try them out one by one in the same console or different as per your choice all the variables used will be stored in the variable explorer tab. It also provides an option to view graphs and visualizations in the plot window. 
  
-Code Block — Editor: This is where we write Python codes
-Current Working Directory: Link/Directory of the folder you want to work on
-Variable Explorer: Shows the variables present in the Python environment
-File Explorer: Shows the files inside the current working directory
-IPython Console : Displays the output of the Python Code
-History Log: Stores the last 100 commands you’ve typed in the console
-Execute a code
+**Code Block — Editor:** This is where we write Python codes
+
+**Current Working Directory:** Link/Directory of the folder you want to work on
+
+**Variable Explorer:** Shows the variables present in the Python environment
+
+**File Explorer:** Shows the files inside the current working directory
+
+**IPython Console :** Displays the output of the Python Code
+
+**History Log:** Stores the last 100 commands you’ve typed in the console
+
+**Execute a code**
  
 •	Write a python code in the code block, then click F5 to execute the code.
+
 •	Here , tried printing “Hello FTW4”, and as seen in the IPython Console, it prints the output.
-Creating Variables
+
+**Creating Variables**
  
 •	Here, introduced new variables called “x, y and z” where z is the sum of y and x.
-•	After executing the code, where , also printed the value of z, the output which is equal to 24 is now printed in the IPython Console.
-•	One thing to also notice is that the Variable Explorer is also populated now with the 3 declared variables “x, y and z” with their respective type, size and value.
-(c) Familiarization of data types in the language used
-Python supports various built-in data types that are used to store data of different forms. Here are some of the most commonly used data types in Python:
-Numeric Types:
-           int: Integer values, e.g., 10, -5
-float: Floating-point numbers, e.g., 10.5, -3.14
-complex: Complex numbers, e.g., 1+2j, -3+4j
-Sequence Types:
-list: Ordered, mutable collections of items, e.g., [1, 2, 3], ['a', 'b', 'c']
-tuple: Ordered, immutable collections of items, e.g., (1, 2, 3), ('a', 'b', 'c')
-range: Immutable sequence of numbers, e.g., range(0, 10)
-Text Type:
-str: String values, e.g., "Hello", 'World'
-Mapping Type:
-dict: Unordered, mutable collections of key-value pairs, e.g., {'name': 'John', 'age': 30}
-Set Types:
-set: Unordered collections of unique items, e.g., {1, 2, 3}, {'a', 'b', 'c'}
-frozenset: Immutable collections of unique items, e.g., frozenset([1, 2, 3])
-Boolean Type:
-bool: Represents truth values, e.g., True, False
 
-Binary Types:
-bytes: Immutable sequences of bytes, e.g., b'hello'
-bytearray: Mutable sequences of bytes, e.g., bytearray(b'hello')
-memoryview: Provides memory-efficient view of byte data, e.g., memoryview(b'hello')
-None Type:
+•	After executing the code, where , also printed the value of z, the output which is equal to 24 is now printed in the IPython Console.
+
+•	One thing to also notice is that the Variable Explorer is also populated now with the 3 declared variables “x, y and z” with their respective type, size and value.
+
+**(c) Familiarization of data types in the language used**
+
+Python supports various built-in data types that are used to store data of different forms. Here are some of the most commonly used data types in Python:
+
+**Numeric Types:**
+
+ int: Integer values, e.g., 10, -5
+
+ float: Floating-point numbers, e.g., 10.5, -3.14
+
+ complex: Complex numbers, e.g., 1+2j, -3+4j
+
+**Sequence Types:**
+
+ list: Ordered, mutable collections of items, e.g., [1, 2, 3], ['a', 'b', 'c']
+
+ tuple: Ordered, immutable collections of items, e.g., (1, 2, 3), ('a', 'b', 'c')
+
+ range: Immutable sequence of numbers, e.g., range(0, 10)
+
+**Text Type:**
+
+ str: String values, e.g., "Hello", 'World'
+
+**Mapping Type:**
+
+ dict: Unordered, mutable collections of key-value pairs, e.g., {'name': 'John', 'age': 30}
+
+**Set Types:**
+
+ set: Unordered collections of unique items, e.g., {1, 2, 3}, {'a', 'b', 'c'}
+
+ frozenset: Immutable collections of unique items, e.g., frozenset([1, 2, 3])
+
+**Boolean Type:**
+
+  bool: Represents truth values, e.g., True, False
+
+**Binary Types:**
+
+ bytes: Immutable sequences of bytes, e.g., b'hello'
+
+ bytearray: Mutable sequences of bytes, e.g., bytearray(b'hello')
+ 
+ memoryview: Provides memory-efficient view of byte data, e.g., memoryview(b'hello')
+
+**None Type:**
+
 NoneType: Represents the absence of value, e.g., None
 # Integer
 a = 100
