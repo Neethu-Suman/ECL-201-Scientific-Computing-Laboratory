@@ -46,7 +46,7 @@ Python is a versatile language widely used in various computational mathematics 
 
 •	**Integration:** Executed by SciPy and SymPy.
 
-•	**Transforms: **Managed by NumPy and SciPy (Fourier transforms, Laplace transforms).
+•	**Transforms:** Managed by NumPy and SciPy (Fourier transforms, Laplace transforms).
 
 •	**Curve Fitting:** Performed using SciPy, NumPy, and Statsmodels.
 
@@ -72,19 +72,19 @@ Following are the basic features of Python
 
 ●	**Built-in Graphics:** It provides built-in graphics for visualizing data through libraries like Matplotlib, Seaborn, and Plotly, and tools for creating custom plots.
 
-●	Programming Interface: Python's programming interface includes development tools such as IDEs (PyCharm, VS Code) and code analysis tools (pylint, mypy) for improving code quality, maintainability, and maximizing performance.
+●	**Programming Interface:** Python's programming interface includes development tools such as IDEs (PyCharm, VS Code) and code analysis tools (pylint, mypy) for improving code quality, maintainability, and maximizing performance.
 
-●	Application Development: It offers tools for building applications with custom graphical interfaces using frameworks like Tkinter, PyQt, and Kivy.
+●	**Application Development:** It offers tools for building applications with custom graphical interfaces using frameworks like Tkinter, PyQt, and Kivy.
 
-●	Integration: Python provides functions for integrating Python-based algorithms with external applications and languages such as C, C++, Java, .NET, and Microsoft Excel through libraries like ctypes, Cython, and Py4J.
+●	**Integration:** Python provides functions for integrating Python-based algorithms with external applications and languages such as C, C++, Java, .NET, and Microsoft Excel through libraries like ctypes, Cython, and Py4J.
 
 o	Uses of  Python
 
 ●	Python is widely used as a computational tool in science and engineering, encompassing fields such as physics, chemistry, mathematics, and all engineering streams. It is used in a range of applications including:
 
-●	Signal Processing and Communications: Using libraries like SciPy and NumPy for digital signal processing, communication systems, and signal analysis.
+●	**Signal Processing and Communications:** Using libraries like SciPy and NumPy for digital signal processing, communication systems, and signal analysis.
 
-●	Image and Video Processing: Through libraries such as OpenCV, PIL (Pillow), and scikit-image for image analysis, enhancement, and video processing.
+●	**Image and Video Processing:** Through libraries such as OpenCV, PIL (Pillow), and scikit-image for image analysis, enhancement, and video processing.
 
 ●	Control Systems: Implemented via libraries like control and SciPy for designing and analyzing control systems.
 
