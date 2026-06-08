@@ -198,6 +198,8 @@ b = 100.0
 
 print(b, type(b))
 
+    100.0 <class 'float'>
+
 # String
 
 c = "100.0"
@@ -236,7 +238,7 @@ print(h, type(h))
 
 Output
 
-100.0 <class 'float'>
+
 100.0 <class 'str'>
 True <class 'bool'>
 [1, 2, 3, 4, 5] <class 'list'>
