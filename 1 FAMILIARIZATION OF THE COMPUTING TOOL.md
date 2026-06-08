@@ -185,32 +185,57 @@ Python supports various built-in data types that are used to store data of diffe
  **NoneType:** Represents the absence of value, e.g., None
 
 # Integer
+
 a = 100
+
 print(a, type(a))
+
+   100 <class 'int'>
+
 # Float
+
 b = 100.0
+
 print(b, type(b))
+
 # String
+
 c = "100.0"
+
 print(c, type(c))
+
 # Boolean
+
 d = True
+
 print(d, type(d))
+
 # List
+
 e = [1, 2, 3, 4, 5]
+
 print(e, type(e))
+
 # Tuple
+
 f = (1, 2, 3, 4, 5)
+
 print(f, type(f))
+
 # Set
+
 g = {1, 2, 3, 4, 5}
+
 print(g, type(g))
+
 # Dictionary
+
 h = {1: "apple", 2: "banana", 3: "cherry"}
+
 print(h, type(h))
 
 Output
-100 <class 'int'>
+
 100.0 <class 'float'>
 100.0 <class 'str'>
 True <class 'bool'>
