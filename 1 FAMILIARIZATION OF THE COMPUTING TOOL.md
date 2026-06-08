@@ -206,6 +206,8 @@ c = "100.0"
 
 print(c, type(c))
 
+    100.0 <class 'str'>
+
 # Boolean
 
 d = True
@@ -239,7 +241,7 @@ print(h, type(h))
 Output
 
 
-100.0 <class 'str'>
+
 True <class 'bool'>
 [1, 2, 3, 4, 5] <class 'list'>
 (1, 2, 3, 4, 5) <class 'tuple'>
