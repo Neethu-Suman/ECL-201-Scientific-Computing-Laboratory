@@ -248,40 +248,73 @@ print(h, type(h))
 
     {1: 'apple', 2: 'banana', 3: 'cherry'} <class 'dict'>
 
+
 (d) Familiarization of the syntax of while, for, if statements.
+
 II (1) Execute a script to check whether a number is divisible by 3
-While statements
+
+**While statements**
+
 # Initialize a variable to keep track of the current number
+
 i = 1
 
 # While the current number is less than or equal to 10, print the number and increment it by 1
+
 while i <= 10:
-    print(i)
-    i += 1
-Output
+
+ print(i)
+    
+ i += 1
+
+**Output**
+
 1
+
 2
+
 3
+
 4
+
 5
+
 6
+
 7
+
 8
+
 9
+
 10
-For statements
+
+**For statements**
+
 # Initialize a list of numbers
+
 numbers = [1, 2, 3, 4, 5]
+
 # Iterate over the list of numbers using a for loop
+
 for number in numbers:
-  # Print the current number
+
+# Print the current number
+
   print(number)
+
 Output 
+
 1
+
 2
+
 3
+
 4
+
 5
+
 If statements
 # Get input from the user
 a = int(input('Enter integer to check whether it is divisble by 3 or not: '))
