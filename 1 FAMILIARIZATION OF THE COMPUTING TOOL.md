@@ -315,103 +315,178 @@ Output
 
 5
 
-If statements
+**If statements**
+
 # Get input from the user
+
 a = int(input('Enter integer to check whether it is divisble by 3 or not: '))
+
 if a % 3 == 0:
+
   print(a,'is divisible by 3')
+
 else:
-  print(a,'is not divisible by 3')
-Output 
+
+ print(a,'is not divisible by 3')
+
+**Output**
+
 Enter integer to check whether it is divisble by 3 or not: 21
+
 21 is divisible by 3
+
 Enter integer to check whether it is divisble by 3 or not: 2
+
 2 is not divisible by 3 
-(e) Basic syntax and execution of small scripts.
+
+**(e) Basic syntax and execution of small scripts.**
+
 
 III  Check whether a given number is prime or not Using for and if statements
+
 import math
+
 def is_prime(n):
+
   # If n is 1, it is not prime
+  
   if n == 1:
-    return False
+
+  return False
+  
   # Iterate from 2 to the square root of n
+  
   for i in range(2, int(math.sqrt(n)) + 1):
-    # If n is divisible by any number from 2 to its square root, it is not prime
-    if n % i == 0:
-      return False
+  
+   # If n is divisible by any number from 2 to its square root, it is not prime
+    
+   if n % i == 0:
+  
+    return False
+  
   # If n is divisible by no number from 2 to its square root, it is prime
+  
   return True
+  
 # Get input from the user
+
 n = int(input('Enter a number to check whether it is prime or not: '))
+
 # Check if the number is prime
+
 if is_prime(n):
+
   print(n, 'is a prime number.')
+
 else:
+
   print(n, 'is not a prime number.')
 
-Output 
+**Output** 
+
 Enter a number to check whether it is prime or not:  5
+
 5 is a prime number.
+
 Enter a number to check whether it is prime or not: 13
+
 13 is a prime number.
-Using while and if statements
+
+**Using while and if statements**
+
 def is_prime(n):
+
   # If n is 1, it is not prime
+  
   if n == 1:
-    return False
+  
+   return False
 
   # Initialize a variable to keep track of the current divisor
+  
   divisor = 2
 
   # While the current divisor is less than or equal to the square root of n, check if n is divisible by the divisor
+  
   while divisor <= math.sqrt(n):
-    if n % divisor == 0:
-      return False
-    divisor += 1
+  
+  if n % divisor == 0:
+  
+   return False
+   
+  divisor += 1
 
   # If n is divisible by no number from 2 to its square root, it is prime
+  
   return True
 
 # Get input from the user
+
 n = int(input('Enter a number to check whether it is prime or not: '))
 
 # Check if the number is prime
+
 if is_prime(n):
+
   print(n, 'is a prime number.')
+
 else:
+
   print(n, 'is not a prime number.')
 
-Output 
+**Output** 
+
 Enter a number to check whether it is prime or not:  5
+
 5 is a prime number.
+
 Enter a number to check whether it is prime or not: 13
+
 13 is a prime number.
 
-
 import numpy as np
+
 import matplotlib.pyplot as plt
+
 # Define the time axis
+
 t = np.linspace(0, 20, 1000)
+
 # Define the frequencies
+
 f1 = 50
+
 f2 = 100
+
 # Generate the sine waves
+
 s1 = np.sin(2 * np.pi * f1 * t)
+
 s2 = np.sin(2 * np.pi * f2 * t)
+
 # Create the plot
+
 plt.plot(t, s1, label='50 Hz')
+
 plt.plot(t, s2, label='100 Hz')
 
 # Add labels and legend
+
 plt.xlabel('Time (s)')
+
 plt.ylabel('Amplitude')
+
 plt.legend()
+
 # Show the plot
+
 plt.show()
 
-OUTPUT
+
+**OUTPUT**
  
+
 INFERENCE
+
 Simulated simple Python programs and familiarized with the scientific computing tool.
 
