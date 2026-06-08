@@ -214,11 +214,15 @@ d = True
 
 print(d, type(d))
 
+    True <class 'bool'>
+
 # List
 
 e = [1, 2, 3, 4, 5]
 
 print(e, type(e))
+
+   [1, 2, 3, 4, 5] <class 'list'>
 
 # Tuple
 
@@ -226,11 +230,15 @@ f = (1, 2, 3, 4, 5)
 
 print(f, type(f))
 
+    (1, 2, 3, 4, 5) <class 'tuple'>
+
 # Set
 
 g = {1, 2, 3, 4, 5}
 
 print(g, type(g))
+
+    {1, 2, 3, 4, 5} <class 'set'>
 
 # Dictionary
 
@@ -238,15 +246,8 @@ h = {1: "apple", 2: "banana", 3: "cherry"}
 
 print(h, type(h))
 
-Output
+    {1: 'apple', 2: 'banana', 3: 'cherry'} <class 'dict'>
 
-
-
-True <class 'bool'>
-[1, 2, 3, 4, 5] <class 'list'>
-(1, 2, 3, 4, 5) <class 'tuple'>
-{1, 2, 3, 4, 5} <class 'set'>
-{1: 'apple', 2: 'banana', 3: 'cherry'} <class 'dict'>
 (d) Familiarization of the syntax of while, for, if statements.
 II (1) Execute a script to check whether a number is divisible by 3
 While statements
