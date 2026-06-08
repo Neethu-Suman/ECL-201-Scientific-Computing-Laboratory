@@ -190,7 +190,7 @@ a = 100
 
 print(a, type(a))
 
-   100 <class 'int'>
+     100 <class 'int'>
 
 # Float
 
