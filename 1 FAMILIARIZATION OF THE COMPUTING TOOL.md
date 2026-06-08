@@ -86,13 +86,13 @@ o	Uses of  Python
 
 ●	**Image and Video Processing:** Through libraries such as OpenCV, PIL (Pillow), and scikit-image for image analysis, enhancement, and video processing.
 
-●	Control Systems: Implemented via libraries like control and SciPy for designing and analyzing control systems.
+●	**Control Systems:** Implemented via libraries like control and SciPy for designing and analyzing control systems.
 
-●	Test and Measurement: Using tools like PyVISA, pySerial, and pandas for data acquisition, instrument control, and automated testing.
+●	**Test and Measurement:** Using tools like PyVISA, pySerial, and pandas for data acquisition, instrument control, and automated testing.
 
-●	Computational Finance: Leveraging libraries such as pandas, NumPy, and QuantLib for quantitative analysis, financial modeling, and algorithmic trading.
+●	**Computational Finance:** Leveraging libraries such as pandas, NumPy, and QuantLib for quantitative analysis, financial modeling, and algorithmic trading.
 
-●	Computational Biology: Utilizing libraries like Biopython, SciPy, and pandas for bioinformatics, genomics, and computational biology research.
+●	**Computational Biology:** Utilizing libraries like Biopython, SciPy, and pandas for bioinformatics, genomics, and computational biology research.
 
 **LAB EXERCISE**
 
@@ -140,49 +140,50 @@ Python supports various built-in data types that are used to store data of diffe
 
 **Numeric Types:**
 
- int: Integer values, e.g., 10, -5
+  **int:** Integer values, e.g., 10, -5
 
- float: Floating-point numbers, e.g., 10.5, -3.14
+  **float:** Floating-point numbers, e.g., 10.5, -3.14
 
- complex: Complex numbers, e.g., 1+2j, -3+4j
+  **complex:** Complex numbers, e.g., 1+2j, -3+4j
 
 **Sequence Types:**
 
- list: Ordered, mutable collections of items, e.g., [1, 2, 3], ['a', 'b', 'c']
+  **list:** Ordered, mutable collections of items, e.g., [1, 2, 3], ['a', 'b', 'c']
 
- tuple: Ordered, immutable collections of items, e.g., (1, 2, 3), ('a', 'b', 'c')
+  **tuple:** Ordered, immutable collections of items, e.g., (1, 2, 3), ('a', 'b', 'c')
 
- range: Immutable sequence of numbers, e.g., range(0, 10)
+  **range:** Immutable sequence of numbers, e.g., range(0, 10)
 
 **Text Type:**
 
- str: String values, e.g., "Hello", 'World'
+  **str:** String values, e.g., "Hello", 'World'
 
 **Mapping Type:**
 
- dict: Unordered, mutable collections of key-value pairs, e.g., {'name': 'John', 'age': 30}
+  **dict:** Unordered, mutable collections of key-value pairs, e.g., {'name': 'John', 'age': 30}
 
 **Set Types:**
 
- set: Unordered collections of unique items, e.g., {1, 2, 3}, {'a', 'b', 'c'}
+ **set:** Unordered collections of unique items, e.g., {1, 2, 3}, {'a', 'b', 'c'}
 
- frozenset: Immutable collections of unique items, e.g., frozenset([1, 2, 3])
+ **frozenset:** Immutable collections of unique items, e.g., frozenset([1, 2, 3])
 
 **Boolean Type:**
 
-  bool: Represents truth values, e.g., True, False
+  **bool:** Represents truth values, e.g., True, False
 
 **Binary Types:**
 
- bytes: Immutable sequences of bytes, e.g., b'hello'
+  **bytes:** Immutable sequences of bytes, e.g., b'hello'
 
- bytearray: Mutable sequences of bytes, e.g., bytearray(b'hello')
+  **bytearray:** Mutable sequences of bytes, e.g., bytearray(b'hello')
  
- memoryview: Provides memory-efficient view of byte data, e.g., memoryview(b'hello')
+  **memoryview:** Provides memory-efficient view of byte data, e.g., memoryview(b'hello')
 
 **None Type:**
 
-NoneType: Represents the absence of value, e.g., None
+ **NoneType:** Represents the absence of value, e.g., None
+
 # Integer
 a = 100
 print(a, type(a))
