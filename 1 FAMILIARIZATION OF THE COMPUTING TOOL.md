@@ -108,7 +108,7 @@ The development of the electronic computer, however, signaled a new era in the a
 
 There are various IDEs in the market to select from such as Spyder, Atom, Pycharm, Pydev etc. Data scientist prefer Spyder among all the different IDEs available and the driving fact behind this is that Spyder was built specifically to be used for data science. Its interface allows the user to scroll through various data variables and also ready to use online help option. The output of the code can be viewed in the python console on the same screen. You can work on different scripts at a moment and then try them out one by one in the same console or different as per your choice all the variables used will be stored in the variable explorer tab. It also provides an option to view graphs and visualizations in the plot window. 
 
-<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP1/1.png" width ="400">
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP1/1.png" >
  
 **Code Block — Editor:** This is where we write Python codes
 
@@ -124,7 +124,7 @@ There are various IDEs in the market to select from such as Spyder, Atom, Pychar
 
 **Execute a code**
 
- <img src = "https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP1/2.png" width ="400">
+ <img src = "https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP1/2.png" >
  
 •	Write a python code in the code block, then click F5 to execute the code.
 
@@ -132,7 +132,7 @@ There are various IDEs in the market to select from such as Spyder, Atom, Pychar
 
 **Creating Variables**
 
-<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP1/3.png" width ="400">
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP1/3.png" >
  
 •	Here, introduced new variables called “x, y and z” where z is the sum of y and x.
 
