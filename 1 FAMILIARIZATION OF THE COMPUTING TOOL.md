@@ -125,11 +125,14 @@ There are various IDEs in the market to select from such as Spyder, Atom, Pychar
 **Execute a code**
 
  <img src = "https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP1/2.png" width ="400">
+ 
 •	Write a python code in the code block, then click F5 to execute the code.
 
 •	Here , tried printing “Hello FTW4”, and as seen in the IPython Console, it prints the output.
 
 **Creating Variables**
+
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP1/3.png" width ="400">
  
 •	Here, introduced new variables called “x, y and z” where z is the sum of y and x.
 
