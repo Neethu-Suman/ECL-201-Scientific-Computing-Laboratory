@@ -16,6 +16,8 @@ spyder
 
 1. Type the following in the command window, write down the results and the functions of these built in modules
 
+**PROGRAM**
+
 **Basic Arithmetic Operators**
 
 a = 5 + 3        # Addition: 
@@ -127,6 +129,8 @@ e = math.e    # Euler's Number:
 
 2. Basic arithmetic functions such as abs, sine, real, imag, complex, sinc etc. using bulit in modules.
 
+**PROGRAM**
+
 #Importing the math and cmath modules
 
 import math
@@ -237,48 +241,80 @@ real_part = z.real
 imag_part = z.imag
 
 #Compute the magnitude of the vector
+
 magnitude = abs(z)
-# Print the results
+
+#Print the results
+
 print(f"Complex Number: {z}")
+
 print(f"Real Part: {real_part}")
+
 print(f"Imaginary Part: {imag_part}")
+
 print(f"Magnitude: {magnitude}") 
 
-OUTPUT
-Complex Number: (5+4j)
-Real Part: 5.0
-Imaginary Part: 4.0
-Magnitude: 6.4031242374328485 
+**OUTPUT**
+
+        Complex Number: (5+4j)
+
+        Real Part: 5.0
+
+        Imaginary Part: 4.0
+
+        Magnitude: 6.4031242374328485 
+
 4. Vectorized computing
+
 import numpy as np
-# Generate some random data
+
+#Generate some random data
+
 data = np.random.rand(1000)      # 1000 random numbers
-# Example of vectorized operations
-# Element-wise operations
+
+#Example of vectorized operations
+
+#Element-wise operations
+
 result1 = np.sqrt(data)  # Square root of each element
+
 result2 = np.sin(data)   # Sine of each element
+
 result3 = data ** 2      # Square of each element
-# Reduction operations
+
+#Reduction operations
+
 sum_data = np.sum(data)          # Sum of all elements
+
 mean_data = np.mean(data)        # Mean of all elements
+
 max_data = np.max(data)          # Maximum value
+
 argmax_data = np.argmax(data)    # Index of maximum value
-# Print some results for illustration
+
+#Print some results for illustration
+
 print(f"Square root of data: {result1}")
+
 print(f"Sine of data: {result2}")
+
 print(f"Square of data: {result3}")
 
 print(f"Sum of data: {sum_data}")
+
 print(f"Mean of data: {mean_data}")
+
 print(f"Max value in data: {max_data}")
+
 print(f"Index of max value in data: {argmax_data}")
-OUTPUT
-Square root of data: [0.67964719 0.70820527 0.90902855 0.62451891 0.7091313  0.63921897
- 0.72282841 0.87129517 0.98354684 0.94521795]
-Sine of data: [0.62464747 0.34455672 0.83189612 0.46414262 0.34606488 0.6037581
- 0.48653912 0.77040554 0.9887034  0.93816563]
-Square of data: [0.46225183 0.50142176 0.82627745 0.38973066 0.50216641 0.40890197
- 0.52198372 0.75942523 0.96731707 0.89358567]
+
+**OUTPUT**
+
+        Square root of data: [0.67964719 0.70820527 0.90902855 0.62451891 0.7091313  0.639218970.72282841 0.87129517 0.98354684 0.94521795]
+
+        Sine of data: [0.62464747 0.34455672 0.83189612 0.46414262 0.34606488 0.6037581 0.48653912 0.77040554 0.9887034  0.93816563]
+
+        Square of data: [0.46225183 0.50142176 0.82627745 0.38973066 0.50216641 0.40890197 0.52198372 0.75942523 0.96731707 0.89358567]
 Sum of data: 6.570759632600227
 Mean of data: 0.6570759632600227
 Max value in data: 0.9835468354977567
