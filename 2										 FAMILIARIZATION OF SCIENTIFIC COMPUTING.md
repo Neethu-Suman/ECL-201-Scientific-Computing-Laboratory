@@ -96,43 +96,78 @@ q = math.sin(math.pi / 2)  # Sine:
 r = math.cos(0)            # Cosine: 
 
         1.0
-s = math.tan(math.pi / 4)  # Tangent: 1.0
 
-# Logarithmic Functions
-t = math.log(10)          # Natural log (base e): 2.302585092994046
-u = math.log10(100)       # Logarithm base 10: 2.0
-v = math.log2(8)          # Logarithm base 2: 3.0
+s = math.tan(math.pi / 4)  # Tangent: 
 
-# Constants
-pi = math.pi  # Pi: 3.141592653589793
-e = math.e    # Euler's Number: 2.718281828459045
+        1.0
+
+#Logarithmic Functions
+
+t = math.log(10)          # Natural log (base e): 
+
+        2.302585092994046
+
+u = math.log10(100)       # Logarithm base 10: 
+
+        2.0
+
+v = math.log2(8)          # Logarithm base 2: 
+
+        3.0
+
+#Constants
+
+pi = math.pi  # Pi: 
+
+        3.141592653589793
+
+e = math.e    # Euler's Number: 
+
+        2.718281828459045
+
 2. Basic arithmetic functions such as abs, sine, real, imag, complex, sinc etc. using bulit in modules.
-# Importing the math and cmath modules
+
+#Importing the math and cmath modules
+
 import math
+
 import cmath
+
 import numpy as np
 
-# Absolute Value
+#Absolute Value
+
 a = abs(-5)  # 5
+
 print(f"Absolute Value (abs(-5)): {a}")
 
-# Sine (math module)
+#Sine (math module)
+
 b = math.sin(math.pi / 2)  # 1.0
+
 print(f"Sine (math.sin(math.pi / 2)): {b}")
 
-# Real and Imaginary Parts of a Complex Number
+#Real and Imaginary Parts of a Complex Number
+
 c = complex(3, 4)  # 3 + 4j
+
 real_part = c.real  # 3.0
+
 imag_part = c.imag  # 4.0
+
 print(f"Complex Number: {c}")
+
 print(f"Real Part (c.real): {real_part}")
+
 print(f"Imaginary Part (c.imag): {imag_part}")
 
-# Creating Complex Numbers
+#Creating Complex Numbers
+
 d = complex(5, -7)  # 5 - 7j
+
 print(f"Complex (complex(5, -7)): {d}")
 
-# Sinc Function (Normalized Sinc using the math module)
+#Sinc Function (Normalized Sinc using the math module)
 def sinc(x):
     return math.sin(math.pi * x) / (math.pi * x) if x != 0 else 1
 
@@ -149,7 +184,7 @@ print(f"Sine of Complex (cmath.sin(complex(3, 4))): {g}")
 print(f"Cosine of Complex (cmath.cos(complex(3, 4))): {h}")
 print(f"Exponential of Complex (cmath.exp(complex(3, 4))): {i}")
 OUTPUT 
-Absolute Value (abs(-5)): 5
+
 Sine (math.sin(math.pi / 2)): 1.0
 Complex Number: (3+4j)
 Real Part (c.real): 3.0
