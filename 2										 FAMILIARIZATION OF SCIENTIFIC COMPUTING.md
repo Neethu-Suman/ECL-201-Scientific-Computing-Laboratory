@@ -168,45 +168,75 @@ d = complex(5, -7)  # 5 - 7j
 print(f"Complex (complex(5, -7)): {d}")
 
 #Sinc Function (Normalized Sinc using the math module)
+
 def sinc(x):
-    return math.sin(math.pi * x) / (math.pi * x) if x != 0 else 1
+
+return math.sin(math.pi * x) / (math.pi * x) if x != 0 else 1
 
 e = sinc(1)  # 0.6366197723675814
+
 f = sinc(0)  # 1
+
 print(f"Sinc (sinc(1)): {e}")
+
 print(f"Sinc (sinc(0)): {f}")
 
-# cmath functions for complex numbers
-g = cmath.sin(c)  # Sine of a complex number
-h = cmath.cos(c)  # Cosine of a complex number
-i = cmath.exp(c)  # Exponential of a complex number
-print(f"Sine of Complex (cmath.sin(complex(3, 4))): {g}")
-print(f"Cosine of Complex (cmath.cos(complex(3, 4))): {h}")
-print(f"Exponential of Complex (cmath.exp(complex(3, 4))): {i}")
-OUTPUT 
+#cmath functions for complex numbers
 
-Sine (math.sin(math.pi / 2)): 1.0
-Complex Number: (3+4j)
-Real Part (c.real): 3.0
-Imaginary Part (c.imag): 4.0
-Complex (complex(5, -7)): (5-7j)
-Sinc (sinc(1)): 0.6366197723675814
-Sinc (sinc(0)): 1
-Sine of Complex (cmath.sin(complex(3, 4))): (3.853738037919377+27.016813258003932j)
-Cosine of Complex (cmath.cos(complex(3, 4))): (-27.034945603074224-3.851153334811777j)
-Exponential of Complex (cmath.exp(complex(3, 4))): (-13.128783081462158-15.200784463067954j)
+g = cmath.sin(c)  # Sine of a complex number
+
+h = cmath.cos(c)  # Cosine of a complex number
+
+i = cmath.exp(c)  # Exponential of a complex number
+
+print(f"Sine of Complex (cmath.sin(complex(3, 4))): {g}")
+
+print(f"Cosine of Complex (cmath.cos(complex(3, 4))): {h}")
+
+print(f"Exponential of Complex (cmath.exp(complex(3, 4))): {i}")
+
+**OUTPUT** 
+
+        Sine (math.sin(math.pi / 2)): 1.0
+
+        Complex Number: (3+4j)
+
+        Real Part (c.real): 3.0
+
+        Imaginary Part (c.imag): 4.0
+
+        Complex (complex(5, -7)): (5-7j)
+
+        Sinc (sinc(1)): 0.6366197723675814
+
+        Sinc (sinc(0)): 1
+
+        Sine of Complex (cmath.sin(complex(3, 4))): (3.853738037919377+27.016813258003932j)
+
+        Cosine of Complex (cmath.cos(complex(3, 4))): (-27.034945603074224-3.851153334811777j)
+
+        Exponential of Complex (cmath.exp(complex(3, 4))): (-13.128783081462158-15.200784463067954j)
 
 
 3. Create a complex number 5+4i, extract the real and imaginary parts and compute the magnitude of the vector using built in functions
-PROGRAM
+
+**PROGRAM**
+
 import cmath
-# Create a complex number
+
+#Create a complex number
+
 z = complex(5, 4)
-# Extract the real part
+
+#Extract the real part
+
 real_part = z.real
-# Extract the imaginary part
+
+#Extract the imaginary part
+
 imag_part = z.imag
-# Compute the magnitude of the vector
+
+#Compute the magnitude of the vector
 magnitude = abs(z)
 # Print the results
 print(f"Complex Number: {z}")
