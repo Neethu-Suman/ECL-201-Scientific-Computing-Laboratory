@@ -1,29 +1,49 @@
-EXP NO: 2										
-FAMILIARIZATION OF SCIENTIFIC COMPUTING
-OBJECTIVE
+**EXP NO: 2**
+
+**FAMILIARIZATION OF SCIENTIFIC COMPUTING**
+
+**OBJECTIVE**
+
 ●	To familiarize different functions for scientific computing with examples
 
-LEARNING OUTCOMES
+**LEARNING OUTCOMES**
+
 ●	After the completion of this experiment students will be able to execute small scripts using different arithmetic functions
 
-SOFTWARE USED: 
+**SOFTWARE USED:** 
+
 spyder
 
 1. Type the following in the command window, write down the results and the functions of these built in modules
-Basic Arithmetic Operators
-a = 5 + 3        # Addition: 8
+
+**Basic Arithmetic Operators**
+
+a = 5 + 3        # Addition: 
+        
+        8
+
 b = 5 - 3        # Subtraction: 2
+
 c = 5 * 3        # Multiplication: 15
+
 d = 5 / 3        # Division: 1.6666666666666667
+
 e = 5 // 3       # Floor Division: 1
+
 f = 5 % 3        # Modulus: 2
+
 g = 5 ** 3       # Exponentiation: 125
 
-Built-in Arithmetic Functions
+**Built-in Arithmetic Functions**
+
 h = abs(-5)          # Absolute Value: 5
+
 i = pow(5, 3)        # Power: 125
+
 j = max(5, 3, 9)     # Maximum: 9
+
 k = min(5, 3, 9)     # Minimum: 3
+
 l = sum([5, 3, 9])   # Sum: 17
 m = round(5.678, 2)  # Round: 5.682.  
 # Using the math module
