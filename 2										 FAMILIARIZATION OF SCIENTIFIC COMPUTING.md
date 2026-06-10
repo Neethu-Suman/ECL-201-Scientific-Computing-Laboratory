@@ -399,6 +399,8 @@ plt.legend()
 plt.show()
 
 **OUTPUT**
+
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP2/21.png>
  
 **INFERENCE:**
 
