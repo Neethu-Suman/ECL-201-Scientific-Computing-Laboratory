@@ -315,49 +315,91 @@ print(f"Index of max value in data: {argmax_data}")
         Sine of data: [0.62464747 0.34455672 0.83189612 0.46414262 0.34606488 0.6037581 0.48653912 0.77040554 0.9887034  0.93816563]
 
         Square of data: [0.46225183 0.50142176 0.82627745 0.38973066 0.50216641 0.40890197 0.52198372 0.75942523 0.96731707 0.89358567]
-Sum of data: 6.570759632600227
-Mean of data: 0.6570759632600227
-Max value in data: 0.9835468354977567
-Index of max value in data: 8
+
+        Sum of data: 6.570759632600227
+
+        Mean of data: 0.6570759632600227
+
+        Max value in data: 0.9835468354977567
+
+        Index of max value in data: 8
 
 7. Execute a script  to obtain the dot product and the cross product of two vectors a and b, where a = (1 5 6) and b = (2 3 8).
-PROGRAM
+
+**PROGRAM**
+
 import numpy as np
-# Define vectors a and b
+
+#Define vectors a and b
+
 a = np.array([1, 5, 6])
+
 b = np.array([2, 3, 8])
-# Compute dot product
+
+#Compute dot product
+
 dot_product = np.dot(a, b)
-# Compute cross product
+
+#Compute cross product
+
 cross_product = np.cross(a, b)
-# Print results
+
+#Print results
+
 print(f"Dot Product: {dot_product}")
+
 print(f"Cross Product: {cross_product}")
-OUTPUT
-Dot Product: 53
-Cross Product: [ 27 -10  -7]
+
+**OUTPUT**
+
+        Dot Product: 53
+
+        Cross Product: [ 27 -10  -7]
+
 8.. The voltage across a capacitor is   
+
 Plot voltage v (t), versus time, t, for t = 0 to 50 seconds with increment of 5 s. Do not use loops.
-PROGRAM
+
+**PROGRAM**
+
 import numpy as np
+
 import matplotlib.pyplot as plt
-# Constants and initial conditions
+
+#Constants and initial conditions
+
 V0 = 10.0  # Initial voltage (V)
+
 R = 1.0    # Resistance (Ohms)
+
 C = 1.0    # Capacitance (Farads)
+
 t = np.arange(0, 51, 5)  # Time array from 0 to 50 seconds with increment of 5 s
-# Calculate voltage v(t)
+
+#Calculate voltage v(t)
+
 voltage = V0 * np.exp(-t / (R * C))
-# Plotting
+
+#Plotting
+
 plt.figure(figsize=(8, 6))
+
 plt.plot(t, voltage, marker='o', linestyle='-', color='b', label='Voltage $v(t)$')
+
 plt.title('Voltage Across Capacitor vs Time')
+
 plt.xlabel('Time (s)')
+
 plt.ylabel('Voltage (V)')
+
 plt.grid(True)
+
 plt.legend()
+
 plt.show()
-OUTPUT
+
+**OUTPUT**
  
-INFERENCE:
+**INFERENCE:**
+
 Familiarized with basic arithmetic functions for scientific computing and used vectorized computing for fast scientific applications.
