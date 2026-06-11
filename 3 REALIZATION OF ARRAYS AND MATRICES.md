@@ -1,81 +1,125 @@
-EXP NO: 3										
-REALIZATION OF ARRAYS AND MATRICES
-OBJECTIVE
+**EXP NO: 3**		
+
+**REALIZATION OF ARRAYS AND MATRICES**
+
+**OBJECTIVE**
+
 ●	To familiarize with the realization of arrays and matrixes and their visualization using plotting functions and GUI
 
-LEARNING OUTCOMES
+**LEARNING OUTCOMES**
+
 ●	After the completion of this experiment students will be able to approximate an array/matrix with matrix decomposition.
-SOFTWARE USED: 
-                 SPYDER
+
+**SOFTWARE USED:** 
+          
+SPYDER
+
 1. Realize one dimensional array of real and complex numbers
 
-
-PROGRAM
+**PROGRAM**
 
 import numpy as np
-# Create a one-dimensional array of real numbers
+
+#Create a one-dimensional array of real numbers
+
 real_array = np.array([1, 2, 3, 4, 5])
-# Create a one-dimensional array of complex numbers
+
+#Create a one-dimensional array of complex numbers
+
 complex_array = np.array([1 + 2j, 3 + 4j, 5 + 6j, 7 + 8j, 9 + 10j])
-# Print the real array
+
+#Print the real array
+
 print("Real array:", real_array)
-# Print the complex array
+
+#Print the complex array
+
 print("Complex array:", complex_array)
 
-OUTPUT
+**OUTPUT**
 
 Real array: [1 2 3 4 5]
+
 Complex array: [1. +2.j 3. +4.j 5. +6.j 7. +8.j 9.+10.j]
 
 2.	Stem and continuous plots of real arrays using matplotlib/GUIs/charts.
 
-PROGRAM
-# Stem plot of the real array
+**PROGRAM**
+
+#Stem plot of the real array
+
 plt.stem(real_array)
+
 plt.title('Stem Plot of Real Array')
+
 plt.show()
 
-# Continuous plot of the real array
+#Continuous plot of the real array
+
 plt.plot(real_array)
+
 plt.title('Continuous Plot of Real Array')
+
 plt.show()
 
-
-OUTPUT
+**OUTPUT**
  
  
- 
-
-
 3. Find the roots of the following quadratic equation
+
 x2 -2x +3 = 0
-PROGRAM
+
+**PROGRAM**
+
 import cmath
-# Coefficients
+
+#Coefficients
+
 a = 1
+
 b = -2
+
 c = 3
-# Calculate the discriminant
+
+#Calculate the discriminant
+
 discriminant = b**2 - 4*a*c
-# Find the roots using the quadratic formula
+
+#Find the roots using the quadratic formula
+
 root1 = (-b + cmath.sqrt(discriminant)) / (2*a)
+
 root2 = (-b - cmath.sqrt(discriminant)) / (2*a)
-# Print the roots
+
+#Print the roots
+
 print(f"The roots of the equation are {root1} and {root2}")
-OUTPUT
+
+**OUTPUT**
+
 The roots of the equation are (1+1.4142135623730951j) and (1-1.4142135623730951j)
+
 4.  Create two separate row vectors(arrays) a and b that contains elements from 1 to 10. Create an array of complex numbers z with a as the real part and b as the imaginary part. Find the sum and complex conjugate of the array z  
-PROGRAM
+
+**PROGRAM**
+
 import numpy as np
 
-# Create row vectors a and b
+#Create row vectors a and b
+
 a = np.arange(1, 11)
+
 b = np.arange(1, 11)
-# Create array of complex numbers z
+
+#Create array of complex numbers z
+
 z = a + 1j * b
-# Find the sum of the array z
+
+#Find the sum of the array z
+
 sum_z = np.sum(z)
-# Find the complex conjugate of the array z
+
+#Find the complex conjugate of the array z
 conjugate_z = np.conj(z)
 # Print the results
 print(f"Vector a: {a}")
