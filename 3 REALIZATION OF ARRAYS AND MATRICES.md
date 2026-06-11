@@ -367,28 +367,47 @@ Approximated Matrix A for N = 1000:
 9.  
 
 **PROGRAM**
- import numpy as np
+
+import numpy as np
+
 import matplotlib.pyplot as plt
-# Define the matrix A
+
+#Define the matrix A
+
 A = np.random.rand(1000, 1000)
-# Compute the singular value decomposition of A
+
+#Compute the singular value decomposition of A
+
 U, s, Vh = np.linalg.svd(A)
-# Compute the absolute error (ABA) between A and A_approx for different values of r
+
+#Compute the absolute error (ABA) between A and A_approx for different values of r
+
 r_values = [10, 50, 75, 100, 250, 500, 750]
+
 aba_values = [ ]
+
 for r in r_values:
+
   A_approx = U[:, :r] @ np.diag(s[:r]) @ Vh[:r, :]
+  
   aba_values.append(np.linalg.norm(A - A_approx, ord='fro'))
-# Plot the absolute error (ABA) against r
+
+#Plot the absolute error (ABA) against r
+
 plt.plot(r_values, aba_values)
+
 plt.xlabel('r')
+
 plt.ylabel('Absolute Error (ABA)')
+
 plt.title('Plot of Absolute Error (ABA) against r')
+
 plt.show()
 
-OUTPUT
+**OUTPUT**
  
-INFERENCE:
+**INFERENCE:**
+
 Familiarized with the realization of arrays and matrixes and their visualization using plotting functions 
 
 
