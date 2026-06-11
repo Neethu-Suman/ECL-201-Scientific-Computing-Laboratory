@@ -120,71 +120,122 @@ z = a + 1j * b
 sum_z = np.sum(z)
 
 #Find the complex conjugate of the array z
+
 conjugate_z = np.conj(z)
-# Print the results
+
+#Print the results
+
 print(f"Vector a: {a}")
+
 print(f"Vector b: {b}")
+
 print(f"Complex array z: {z}")
+
 print(f"Sum of z: {sum_z}")
+
 print(f"Complex conjugate of z: {conjugate_z}") 
 
-OUTPUT
+**OUTPUT**
+
 Vector a: [ 1  2  3  4  5  6  7  8  9 10]
+
 Vector b: [ 1  2  3  4  5  6  7  8  9 10]
-Complex array z: [ 1. +1.j  2. +2.j  3. +3.j  4. +4.j  5. +5.j  6. +6.j  7. +7.j  8. +8.j
-  9. +9.j 10.+10.j]
+
+Complex array z: [ 1. +1.j  2. +2.j  3. +3.j  4. +4.j  5. +5.j  6. +6.j  7. +7.j  8. +8.j   9. +9.j 10.+10.j]
+
 Sum of z: (55+55j)
-Complex conjugate of z: [ 1. -1.j  2. -2.j  3. -3.j  4. -4.j  5. -5.j  6. -6.j  7. -7.j  8. -8.j
-  9. -9.j 10.-10.j] 
+
+Complex conjugate of z: [ 1. -1.j  2. -2.j  3. -3.j  4. -4.j  5. -5.j  6. -6.j  7. -7.j  8. -8.j 9. -9.j 10.-10.j] 
+
 5. Realization of two dimensional arrays and matrices and their visualizations with imshow/matshow/charts
-PROGRAM
+
+**PROGRAM**
+
 import numpy as np
+
 import matplotlib.pyplot as plt
 
-# Create a two-dimensional array of real numbers
+#Create a two-dimensional array of real numbers
+
 real_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-# Print the real array
+
+#Print the real array
+
 print("Real array:\n", real_array)
-# imshow of the real array
+
+#imshow of the real array
+
 plt.imshow(real_array, cmap="hot")
+
 plt.title('Imshow of Real Array')
+
 plt.show()
-# matshow of the real array
+
+#matshow of the real array
+
 plt.matshow(real_array, cmap="viridis")
+
 plt.title('Matplotlib of Real Array')
+
 plt.show()
-OUTPUT
+
+**OUTPUT**
+
 Real array:
+
  [[1 2 3]
+ 
  [4 5 6]
+ 
  [7 8 9]]
      
 6. 	Inverse of a square matrix and the solution of the matrix equation [A][X] = [b] where A is an N x N matrix and X and b are N x 1 vectors.
-PROGRAM
+
+**PROGRAM**
+
 import numpy as np
-# Define the matrix A
+
+#Define the matrix A
+
 A = np.array([[2, 3], [1, 4]])
 
-# Print the matrix A
+#Print the matrix A
+
 print("Matrix A:")
+
 print(A)
-# Find the inverse of the matrix A
+
+#Find the inverse of the matrix A
+
 A_inv = np.linalg.inv(A)
-# Print the inverse of the matrix A
+
+#Print the inverse of the matrix A
+
 print("Inverse of Matrix A:")
+
 print(A_inv)
-# Define the matrix b
+
+#Define the matrix b
+
 b = np.array([[5], [2]])
-# Print the matrix b
+
+#Print the matrix b
+
 print("Matrix b:")
+
 print(b)
-# Solve the matrix equation [A][X] = [b] for [X]
+
+#Solve the matrix equation [A][X] = [b] for [X]
+
 X = np.linalg.solve(A, b)
-# Print the solution [X]
+
+#Print the solution [X]
+
 print("Solution [X]:")
+
 print(X)
 
-OUTPUT
+**OUTPUT**
 Matrix A:
 [[2 3]
  [1 4]]
