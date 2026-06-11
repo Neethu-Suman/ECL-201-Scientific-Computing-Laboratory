@@ -236,81 +236,137 @@ print("Solution [X]:")
 print(X)
 
 **OUTPUT**
+
 Matrix A:
+
 [[2 3]
+
  [1 4]]
+
 Inverse of Matrix A:
+
 [[ 0.8 -0.6]
+
  [-0.2  0.4]]
+
 Matrix b:
+
 [[5]
+
  [2]]
+
 Solution [X]:
+
 [[ 2.8]
+
  [-0.2]]
 
 7.. Computation of the rank and eigenvalues of  Matrix A
-PROGRAM
-# Define the matrix A
+
+**PROGRAM**
+
+#Define the matrix A
+
 A = np.array([[2, 3], [1, 4]])
-# Print the matrix A
+
+#Print the matrix A
+
 print("Matrix A:")
+
 print(A)
-# Compute the rank of the matrix A
+
+#Compute the rank of the matrix A
+
 rank_A = np.linalg.matrix_rank(A)
-# Print the rank of the matrix A
+
+#Print the rank of the matrix A
+
 print("Rank of Matrix A:", rank_A)
-# Compute the eigenvalues of the matrix A
+
+#Compute the eigenvalues of the matrix A
+
 eigenvalues_A = np.linalg.eigvals(A)
-# Print the eigenvalues of the matrix A
+
+#Print the eigenvalues of the matrix A
+
 print("Eigenvalues of Matrix A:", eigenvalues_A)
 
-OUTPUT
+**OUTPUT**
+
 Matrix A:
+
 [[2 3]
+
  [1 4]]
+
 Rank of Matrix A: 2
+
 Eigenvalues of Matrix A: [1. 5.]
 
-8. Approximate A for N = 1000 with the help of singular value decomposition
-of A as 
- 
-where Ui and Vi are the singular vectors and _i are the eigen values with _i < _j for i > j. One may use the built-in functions for singular value decomposition.
-PROGRAM
+8. Approximate A for N = 1000 with the help of singular value decomposition of A as where Ui and Vi are the singular vectors and _i are the eigen values with _i < _j for i > j. One may use the built-in functions for singular value decomposition.
+
+**PROGRAM**
+
 import numpy as np
-# Define the matrix A
+
+#Define the matrix A
+
 A = np.random.rand(1000, 1000)
-# Compute the singular value decomposition of A
+
+#Compute the singular value decomposition of A
+
 U, s, Vh = np.linalg.svd(A)
-# Approximate A for N = 1000
+
+#Approximate A for N = 1000
+
 A_approx = U[:, :1000] @ np.diag(s[:1000]) @ Vh[:1000, :]
-# Print the matrix A
+
+#Print the matrix A
+
 print("Matrix A:")
+
 print(A)
-# Print the approximated matrix A for N = 1000
+
+#Print the approximated matrix A for N = 1000
+
 print("Approximated Matrix A for N = 1000:")
+
 print(A_approx)
 
-OUTPUT
+**OUTPUT**
 
 Matrix A:
+
 [[0.48515969 0.69253842 0.9724357  ... 0.6538901  0.35243468 0.4435475 ]
+
  [0.73608134 0.17343474 0.95978315 ... 0.04422015 0.02941123 0.36663683]
+ 
  [0.12665399 0.85741149 0.68248467 ... 0.08905294 0.5524839  0.10351128]
- ...
+ 
  [0.58958556 0.69387035 0.48524938 ... 0.75832046 0.79927468 0.7331946 ]
+ 
  [0.21118366 0.03826133 0.26771646 ... 0.97975299 0.42143705 0.31806776]
+ 
  [0.44029941 0.32702244 0.66522572 ... 0.47750262 0.01940912 0.86640744]]
+
 Approximated Matrix A for N = 1000:
+
 [[0.48515969 0.69253842 0.9724357  ... 0.6538901  0.35243468 0.4435475 ]
+
  [0.73608134 0.17343474 0.95978315 ... 0.04422015 0.02941123 0.36663683]
+ 
  [0.12665399 0.85741149 0.68248467 ... 0.08905294 0.5524839  0.10351128]
- ...
+
+ 
  [0.58958556 0.69387035 0.48524938 ... 0.75832046 0.79927468 0.7331946 ]
+ 
  [0.21118366 0.03826133 0.26771646 ... 0.97975299 0.42143705 0.31806776]
+ 
  [0.44029941 0.32702244 0.66522572 ... 0.47750262 0.01940912 0.86640744]]
+
 9.  
-PROGRAM
+
+**PROGRAM**
  import numpy as np
 import matplotlib.pyplot as plt
 # Define the matrix A
