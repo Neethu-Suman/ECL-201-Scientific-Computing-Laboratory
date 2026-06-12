@@ -195,7 +195,7 @@ Real array:
 
 <img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP3/3.png" width ="600">
 
-<img src="
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP3/4.png" width ="600">
 
 6. 	Inverse of a square matrix and the solution of the matrix equation [A][X] = [b] where A is an N x N matrix and X and b are N x 1 vectors.
 
