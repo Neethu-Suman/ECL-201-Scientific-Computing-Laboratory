@@ -63,6 +63,10 @@ plt.title('Continuous Plot of Real Array')
 plt.show()
 
 **OUTPUT**
+
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP3/1.png">
+
+<img src="">
  
  
 3. Find the roots of the following quadratic equation
