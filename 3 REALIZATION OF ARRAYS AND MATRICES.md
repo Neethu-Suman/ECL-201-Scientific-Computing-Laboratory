@@ -192,7 +192,9 @@ Real array:
  [4 5 6]
  
  [7 8 9]]
-     
+
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP3/2.png" width ="600">
+
 6. 	Inverse of a square matrix and the solution of the matrix equation [A][X] = [b] where A is an N x N matrix and X and b are N x 1 vectors.
 
 **PROGRAM**
