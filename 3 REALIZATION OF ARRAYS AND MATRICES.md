@@ -313,7 +313,7 @@ Eigenvalues of Matrix A: [1. 5.]
 
 8. Approximate A for N = 1000 with the help of singular value decomposition of A as where Ui and Vi are the singular vectors and _i are the eigen values with _i < _j for i > j. One may use the built-in functions for singular value decomposition.
 
-<img src ="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP3/5.png" width ="400">
+<img src ="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP3/5.png" width ="100">
 
 **PROGRAM**
 
