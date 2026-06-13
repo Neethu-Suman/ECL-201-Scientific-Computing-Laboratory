@@ -375,7 +375,7 @@ Approximated Matrix A for N = 1000:
  
  [0.44029941 0.32702244 0.66522572 ... 0.47750262 0.01940912 0.86640744]]
 
-9.  <img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP3/6.png">
+9.  <img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP3/6.png" width="600">
 
 **PROGRAM**
 
