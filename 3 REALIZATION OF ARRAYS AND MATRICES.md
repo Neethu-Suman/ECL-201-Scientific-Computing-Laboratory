@@ -416,6 +416,8 @@ plt.title('Plot of Absolute Error (ABA) against r')
 plt.show()
 
 **OUTPUT**
+
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP3/7.png" width ="600">
  
 **INFERENCE:**
 
