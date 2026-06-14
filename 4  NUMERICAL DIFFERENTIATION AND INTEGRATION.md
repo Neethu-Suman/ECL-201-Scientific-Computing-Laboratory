@@ -12,7 +12,7 @@ After the completion of this experiment students will be able to Implement numer
 
 **SOFTWARE USED:** 
 
-        SPIDER
+SPIDER
 
 **THEORY**
 
