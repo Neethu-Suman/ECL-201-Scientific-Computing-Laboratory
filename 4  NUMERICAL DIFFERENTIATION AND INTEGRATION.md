@@ -297,7 +297,7 @@ from scipy import integrate
 
 def f(t):
 
-  return 4 * t**2 + 3
+return 4 * t**2 + 3
 
 #Define the integration limits
 
@@ -329,39 +329,39 @@ import scipy.integrate as integrate
 
 def f(t):
 
-    return 4 * t**2 + 3
+return 4 * t**2 + 3
 
 #Define the trapezoidal method
 
 def trapezoidal_method(f, a, b, n):
 
-    x = np.linspace(a, b, n+1)
+x = np.linspace(a, b, n+1)
     
-    y = f(x)
+y = f(x)
     
-    h = (b - a) / n
+h = (b - a) / n
     
-    integral = (h/2) * (y[0] + 2*np.sum(y[1:n]) + y[n])
+integral = (h/2) * (y[0] + 2*np.sum(y[1:n]) + y[n])
     
-    return integral
+return integral
 
 #Define Simpson's method
 
 def simpsons_method(f, a, b, n):
 
-    if n % 2:
+if n % 2:
     
-        raise ValueError("n must be an even number.")
+raise ValueError("n must be an even number.")
     
-    x = np.linspace(a, b, n+1)
+x = np.linspace(a, b, n+1)
     
-    y = f(x)
+y = f(x)
     
-    h = (b - a) / n
+h = (b - a) / n
     
-    integral = (h/3) * (y[0] + 4*np.sum(y[1:n:2]) + 2*np.sum(y[2:n-1:2]) + y[n])
+integral = (h/3) * (y[0] + 4*np.sum(y[1:n:2]) + 2*np.sum(y[2:n-1:2]) + y[n])
     
-    return integral
+return integral
 
 #Set the interval and number of subintervals
 
@@ -407,36 +407,63 @@ from scipy import integrate
 
 def f(x):
 
-    return np.exp(-x**2/2)
+return np.exp(-x**2/2)
 
 #Define the interval of integration
+
 a = 0
+
 b = np.inf
-# Trapezoidal method
+
+#Trapezoidal method
+
 def trapezoidal_method(f, a, b, n):
-    x = np.linspace(a, b, n+1)
-    y = f(x)
-    h = (b - a) / n
-    integral = (h/2) * (y[0] + 2*np.sum(y[1:n]) + y[n])
-    return integral
-# Simpson's method
+
+x = np.linspace(a, b, n+1)
+
+y = f(x)
+
+h = (b - a) / n
+
+integral = (h/2) * (y[0] + 2*np.sum(y[1:n]) + y[n])
+
+return integral
+
+#Simpson's method
+
 def simpsons_method(f, a, b, n):
-    if n % 2:
-        raise ValueError("n must be an even number.")
-    x = np.linspace(a, b, n+1)
-    y = f(x)
-    h = (b - a) / n
-    integral = (h/3) * (y[0] + 4*np.sum(y[1:n:2]) + 2*np.sum(y[2:n-1:2]) + y[n])
-    return integral
-# Set the number of subintervals
+
+if n % 2:
+
+raise ValueError("n must be an even number.")
+
+x = np.linspace(a, b, n+1)
+
+y = f(x)
+
+h = (b - a) / n
+
+integral = (h/3) * (y[0] + 4*np.sum(y[1:n:2]) + 2*np.sum(y[2:n-1:2]) + y[n])
+
+return integral
+
+#Set the number of subintervals
+
 n = 100
-# Calculate the integrals
+
+#Calculate the integrals
+
 trap_result = trapezoidal_method(f, a, b, n)
+
 simp_result = simpsons_method(f, a, b, n)
-# Compare the results
+
+#Compare the results
+
 print("Integration using Trapezoidal method:", trap_result)
+
 print("Integration using Simpson's method:", simp_result)
-# For comparison, let's also use scipy's quad function for numerical integration
+
+#For comparison, let's also use scipy's quad function for numerical integration
 exact_integral, _ = integrate.quad(f, a, b)
 print("Exact integral using scipy's quad:", exact_integral)
 # Compute 1/sqrt(2 pi) of integral of exp(-x^2/2) using above three methods
