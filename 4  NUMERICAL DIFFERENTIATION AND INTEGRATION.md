@@ -107,106 +107,158 @@ plt.show()
 
 **OUTPUT**
  
-
-
-
 2.   Compute the first and second derivatives of these functions using built in tools such as grad  
-PROGRAM
+
+**PROGRAM**
 
 import numpy as np
+
 import matplotlib.pyplot as plt
 
-# Define the vector t
+#Define the vector t
+
 t = np.arange(0, 10, 0.01)
 
-# Calculate the functions sin t, cos t, sinh t, and cosh t
+#Calculate the functions sin t, cos t, sinh t, and cosh t
+
 sin_t = np.sin(t)
+
 cos_t = np.cos(t)
+
 sinh_t = np.sinh(t)
+
 cosh_t = np.cosh(t)
 
-# Calculate the first and second derivatives of the functions
+#Calculate the first and second derivatives of the functions
+
 d_sin_t = np.gradient(sin_t, t)
+
 d2_sin_t = np.gradient(d_sin_t, t)
+
 d_cos_t = np.gradient(cos_t, t)
+
 d2_cos_t = np.gradient(d_cos_t, t)
+
 d_sinh_t = np.gradient(sinh_t, t)
+
 d2_sinh_t = np.gradient(d_sinh_t, t)
+
 d_cosh_t = np.gradient(cosh_t, t)
+
 d2_cosh_t = np.gradient(d_cosh_t, t)
 
-# Create a subplot with 12 plots
+#Create a subplot with 12 plots
+
 plt.figure(figsize=(20, 30))
 
-# Plot the functions
+#Plot the functions
+
 plt.subplot(3, 4, 1)
+
 plt.plot(t, sin_t)
+
 plt.xlabel('t')
+
 plt.ylabel('sin(t)')
 
 plt.subplot(3, 4, 2)
+
 plt.plot(t, cos_t)
+
 plt.xlabel('t')
+
 plt.ylabel('cos(t)')
 
 plt.subplot(3, 4, 3)
+
 plt.plot(t, sinh_t)
+
 plt.xlabel('t')
+
 plt.ylabel('sinh(t)')
 
 plt.subplot(3, 4, 4)
+
 plt.plot(t, cosh_t)
+
 plt.xlabel('t')
+
 plt.ylabel('cosh(t)')
 
-# Plot the first derivatives
+#Plot the first derivatives
+
 plt.subplot(3, 4, 5)
+
 plt.plot(t, d_sin_t)
+
 plt.xlabel('t')
+
 plt.ylabel('d/dt sin(t)')
 
 plt.subplot(3, 4, 6)
+
 plt.plot(t, d_cos_t)
+
 plt.xlabel('t')
+
 plt.ylabel('d/dt cos(t)')
 
 plt.subplot(3, 4, 7)
+
 plt.plot(t, d_sinh_t)
+
 plt.xlabel('t')
+
 plt.ylabel('d/dt sinh(t)')
 
 plt.subplot(3, 4, 8)
+
 plt.plot(t, d_cosh_t)
+
 plt.xlabel('t')
+
 plt.ylabel('d/dt cosh(t)')
 
-# Plot the second derivatives
+#Plot the second derivatives
+
 plt.subplot(3, 4, 9)
+
 plt.plot(t, d2_sin_t)
+
 plt.xlabel('t')
+
 plt.ylabel('d2/dt2 sin(t)')
 
 plt.subplot(3, 4, 10)
+
 plt.plot(t, d2_cos_t)
+
 plt.xlabel('t')
+
 plt.ylabel('d2/dt2 cos(t)')
 
 plt.subplot(3, 4, 11)
+
 plt.plot(t, d2_sinh_t)
+
 plt.xlabel('t')
+
 plt.ylabel('d2/dt2 sinh(t)')
 
 plt.subplot(3, 4, 12)
+
 plt.plot(t, d2_cosh_t)
+
 plt.xlabel('t')
+
 plt.ylabel('d2/dt2 cosh(t)')
 
-# Show the plot
+#Show the plot
+
 plt.show()
 
 **OUTPUT**
  
-
 3. Realize the function f(t) = 4t2 + 3 and plot it for the vector t = [5; 5] with increment 0:01
 
 import numpy as np
