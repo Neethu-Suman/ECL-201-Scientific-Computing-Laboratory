@@ -1,78 +1,111 @@
-EXP NO: 4										
-NUMERICAL DIFFERENTIATION AND INTEGRATION
-OBJECTIVE
+**EXP NO: 4**	
+
+**NUMERICAL DIFFERENTIATION AND INTEGRATION**
+
+**OBJECTIVE**
+
 ●	To perform numerical differentiation and integration
-LEARNING OUTCOMES
+
+**LEARNING OUTCOMES**
+
 After the completion of this experiment students will be able to Implement numerical integration and differentiation.
-SOFTWARE USED: 
-                SPIDER
-THEORY
+
+**SOFTWARE USED:** 
+
+        SPIDER
+
+**THEORY**
+
 The first derivative of the function f(x), which we write as df /dx , is the slope of the tangent line to the function at the point x. To put this in non-graphical terms, the first derivative tells us how whether a function is increasing or decreasing, and by how much it is increasing or decreasing .
+
 The second derivative of a function is the derivative of the derivative of that function. We write it as  d2 f /dx2 . While the first derivative can tell us if the function is increasing or decreasing, the second derivative tells us if the first derivative is increasing or decreasing. If the second derivative is positive, then the first derivative is increasing, so that the slope of the tangent line to the function is increasing as x increases
+
 sin – Sine of argument in radians
+
 cos - cos of argument in radians
 
 
-Trapezoidal Method
+**Trapezoidal Method**
 
 Trapezoidal Rule is a rule that evaluates the area under the curves by dividing the total area into smaller trapezoids rather than using rectangles. This integration works by approximating the region under the graph of a function as a trapezoid, and it calculates the area.
  
-
-
-
 Let f(x) be a continuous function on the interval [a, b]. Now divide the intervals [a, b] into n equal subintervals with each of width,
+
 Δx = (b-a)/n, Such that a = x0 < x1< x2< x3<…..<xn = b
+
 Then the Trapezoidal Rule formula for area approximating the definite integral ∫ab f(x)dx is given by:
   
 Where, xi = a+iΔx
+
 If n →∞, R.H.S of the expression approaches the definite integral ∫ab f(x)dx.
 
 simpsons rule
 
 Formula:  (h/3)*[(y0+yn)+2*(y3+y5+..odd term)+4*(y2+y4+y6+...even terms)]
+
 h= (b-a)/n
+
 b is upper limit, a is lower limit and n is number of sub intervals. y0 and yn are first and last term.
  
- 
-
-
-
 1. Realize the functions sin t, cos t, sinht and cosht for the vector t = [-0, 10] with increment 0:01
 
-
 import numpy as np
+
 import matplotlib.pyplot as plt
 
-# Define the vector t
+#Define the vector t
+
 t = np.arange(0, 10, 0.01)
 
-# Calculate the functions sin t, cos t, sinh t, and cosh t
+#Calculate the functions sin t, cos t, sinh t, and cosh t
+
 sin_t = np.sin(t)
+
 cos_t = np.cos(t)
+
 sinh_t = np.sinh(t)
+
 cosh_t = np.cosh(t)
 
-# Create a subplot with four plots
+#Create a subplot with four plots
+
 plt.subplot(2, 2, 1)
+
 plt.plot(t, sin_t)
+
 plt.xlabel('t')
+
 plt.ylabel('sin(t)')
+
 plt.subplot(2, 2, 2)
+
 plt.plot(t, cos_t)
+
 plt.xlabel('t')
+
 plt.ylabel('cos(t)')
+
 plt.subplot(2, 2, 3)
+
 plt.plot(t, sinh_t)
+
 plt.xlabel('t')
+
 plt.ylabel('sinh(t)')
+
 plt.subplot(2, 2, 4)
+
 plt.plot(t, cosh_t)
+
 plt.xlabel('t')
+
 plt.ylabel('cosh(t)')
-# Show the plot
+
+#Show the plot
+
 plt.show()
 
-OUTPUT
+**OUTPUT**
  
 
 
