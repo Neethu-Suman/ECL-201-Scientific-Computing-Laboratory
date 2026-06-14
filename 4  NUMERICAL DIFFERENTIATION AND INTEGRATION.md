@@ -204,110 +204,160 @@ plt.ylabel('d2/dt2 cosh(t)')
 # Show the plot
 plt.show()
 
-OUTPUT
+**OUTPUT**
  
-
-
 
 3. Realize the function f(t) = 4t2 + 3 and plot it for the vector t = [5; 5] with increment 0:01
 
-
 import numpy as np
+
 import matplotlib.pyplot as plt
 
-# Define the vector t
+#Define the vector t
+
 t = np.arange(5, 10, 0.01)
 
-# Calculate the function f(t)
+#Calculate the function f(t)
+
 f_t = 4 * t**2 + 3
 
-# Plot the function f(t)
+#Plot the function f(t)
+
 plt.plot(t, f_t)
+
 plt.xlabel('t')
+
 plt.ylabel('f(t)')
+
 plt.title('Plot of f(t) = 4t^2 + 3')
+
 plt.show()
 
-
-OUTPUT
-
- 
-
-
-
+**OUTPUT**
 
 4. 
  
 import numpy as np
+
 from scipy import integrate
-# Define the function f(t)
+
+#Define the function f(t)
+
 def f(t):
+
   return 4 * t**2 + 3
-# Define the integration limits
+
+#Define the integration limits
+
 lower_limit = -2
+
 upper_limit = 2
-# Compute the integral of f(t) in the interval [-2, 2]
+
+#Compute the integral of f(t) in the interval [-2, 2]
+
 integral, error = integrate.quad(f, lower_limit, upper_limit)
-# Print the integral
+
+#Print the integral
+
 print("Integral of f(t) in the interval [-2, 2]:", integral)
 
-OUTPUT
+**OUTPUT**
+
 The integral of f(t) in the interval [-2, 2] is: 33.333333333333336
 
 5. Repeat the above steps with trapezoidal and Simpson method and compare the results.
-PROGRAM
+
+**PROGRAM**
+
 import numpy as np
+
 import scipy.integrate as integrate
 
-# Define the function f(t)
+#Define the function f(t)
+
 def f(t):
+
     return 4 * t**2 + 3
 
-# Define the trapezoidal method
+#Define the trapezoidal method
+
 def trapezoidal_method(f, a, b, n):
+
     x = np.linspace(a, b, n+1)
+    
     y = f(x)
+    
     h = (b - a) / n
+    
     integral = (h/2) * (y[0] + 2*np.sum(y[1:n]) + y[n])
+    
     return integral
-# Define Simpson's method
+
+#Define Simpson's method
+
 def simpsons_method(f, a, b, n):
+
     if n % 2:
+    
         raise ValueError("n must be an even number.")
+    
     x = np.linspace(a, b, n+1)
+    
     y = f(x)
+    
     h = (b - a) / n
+    
     integral = (h/3) * (y[0] + 4*np.sum(y[1:n:2]) + 2*np.sum(y[2:n-1:2]) + y[n])
+    
     return integral
-# Set the interval and number of subintervals
+
+#Set the interval and number of subintervals
+
 a, b = -2, 2
+
 n = 100  # Number of subintervals
-# Calculate the integrals
+
+#Calculate the integrals
+
 trap_result = trapezoidal_method(f, a, b, n)
+
 simp_result = simpsons_method(f, a, b, n)
-# Compare the results
+
+#Compare the results
+
 print("Integration using Trapezoidal method:", trap_result)
+
 print("Integration using Simpson's method:", simp_result)
 
-# For comparison, let's also use scipy's quad function for numerical integration
+#For comparison, let's also use scipy's quad function for numerical integration
+
 exact_integral, _ = integrate.quad(f, a, b)
+
 print("Exact integral using scipy's quad:", exact_integral)
 
+**OUTPUT**
 
-OUTPUT
 Integration using Trapezoidal method: 33.3376
+
 Integration using Simpson's method: 33.33333333333334
+
 Exact integral using scipy's quad: 33.333333333333336
 
 6.  
 
-PROGRAM
+**PROGRAM**
+
 import numpy as np
+
 from scipy import integrate
-# Define the function to integrate
+
+#Define the function to integrate
+
 def f(x):
+
     return np.exp(-x**2/2)
-# Define the interval of integration
+
+#Define the interval of integration
 a = 0
 b = np.inf
 # Trapezoidal method
