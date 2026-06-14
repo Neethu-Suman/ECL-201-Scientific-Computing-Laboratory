@@ -464,21 +464,33 @@ print("Integration using Trapezoidal method:", trap_result)
 print("Integration using Simpson's method:", simp_result)
 
 #For comparison, let's also use scipy's quad function for numerical integration
+
 exact_integral, _ = integrate.quad(f, a, b)
+
 print("Exact integral using scipy's quad:", exact_integral)
-# Compute 1/sqrt(2 pi) of integral of exp(-x^2/2) using above three methods
+
+#Compute 1/sqrt(2 pi) of integral of exp(-x^2/2) using above three methods
+
 print("1/sqrt(2 pi) of integral of exp(-x^2/2) using Trapezoidal method:", trap_result / np.sqrt(2 * np.pi))
+
 print("1/sqrt(2 pi) of integral of exp(-x^2/2) using Simpson's method:", simp_result / np.sqrt(2 * np.pi))
+
 print("1/sqrt(2 pi) of integral of exp(-x^2/2) using scipy's quad:", exact_integral / np.sqrt(2 * np.pi))
 
+**OUTPUT**
 
-OUTPUT
 Integration using Trapezoidal method: nan
+
 Integration using Simpson's method: nan
+
 Exact integral using scipy's quad: 1.2533141373154997
+
 1/sqrt(2 pi) of integral of exp(-x^2/2) using Trapezoidal method: nan
+
 1/sqrt(2 pi) of integral of exp(-x^2/2) using Simpson's method: nan
+
 1/sqrt(2 pi) of integral of exp(-x^2/2) using scipy's quad: 0.49999999999999983
 
-INFERENCE:
+**INFERENCE:**
+
 Visualized the basic functions such as sin t, cos t, sinht and cosht and performed numerical differentiation and integration using different methods
