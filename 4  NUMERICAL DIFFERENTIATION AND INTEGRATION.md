@@ -28,12 +28,16 @@ cos - cos of argument in radians
 **Trapezoidal Method**
 
 Trapezoidal Rule is a rule that evaluates the area under the curves by dividing the total area into smaller trapezoids rather than using rectangles. This integration works by approximating the region under the graph of a function as a trapezoid, and it calculates the area.
+
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%204/1.png" width="400">
  
 Let f(x) be a continuous function on the interval [a, b]. Now divide the intervals [a, b] into n equal subintervals with each of width,
 
 Δx = (b-a)/n, Such that a = x0 < x1< x2< x3<…..<xn = b
 
 Then the Trapezoidal Rule formula for area approximating the definite integral ∫ab f(x)dx is given by:
+
+
   
 Where, xi = a+iΔx
 
