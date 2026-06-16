@@ -37,7 +37,7 @@ Let f(x) be a continuous function on the interval [a, b]. Now divide the interva
 
 Then the Trapezoidal Rule formula for area approximating the definite integral ∫ab f(x)dx is given by:
 
-
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%204/2.png" width ="400">
   
 Where, xi = a+iΔx
 
