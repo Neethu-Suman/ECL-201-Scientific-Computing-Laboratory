@@ -50,6 +50,8 @@ Formula:  (h/3)*[(y0+yn)+2*(y3+y5+..odd term)+4*(y2+y4+y6+...even terms)]
 h= (b-a)/n
 
 b is upper limit, a is lower limit and n is number of sub intervals. y0 and yn are first and last term.
+
+<img src= "https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%204/3.png" width="500">
  
 1. Realize the functions sin t, cos t, sinht and cosht for the vector t = [-0, 10] with increment 0:01
 
