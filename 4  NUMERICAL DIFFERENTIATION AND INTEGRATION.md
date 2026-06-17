@@ -112,6 +112,8 @@ plt.ylabel('cosh(t)')
 plt.show()
 
 **OUTPUT**
+
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%204/4.png" width="500">
  
 2.   Compute the first and second derivatives of these functions using built in tools such as grad  
 
