@@ -272,6 +272,8 @@ plt.show()
 <img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%204/6.png" width="400">
 
 <img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%204/7.png" width="400">
+
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%204/7.png" width ="400">
  
 3. Realize the function f(t) = 4t2 + 3 and plot it for the vector t = [5; 5] with increment 0:01
 
