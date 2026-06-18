@@ -413,7 +413,7 @@ Integration using Simpson's method: 33.33333333333334
 
 Exact integral using scipy's quad: 33.333333333333336
 
-6.  
+6.  <img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%204/10.png" width="600">
 
 **PROGRAM**
 
