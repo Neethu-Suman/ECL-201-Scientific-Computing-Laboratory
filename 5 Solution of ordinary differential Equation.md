@@ -82,22 +82,30 @@ def model(y, t):
 
 y0 = [0, 0]
 
-# Time points
+#Time points
+
 t = np.linspace(0, 10, 1000)
 
-# Solve the differential equation
+#Solve the differential equation
+
 y = odeint(model, y0, t)
 
-# Extract the solution for x(t)
+#Extract the solution for x(t)
+
 x = y[:, 0]
 
-# Plot the solution
+#Plot the solution
+
 plt.plot(t, x)
+
 plt.xlabel('t')
+
 plt.ylabel('x(t)')
+
 plt.show()
 
-OUTPUT
+**OUTPUT**
  
-INFERENCE:
+**INFERENCE:**
+
 Solved the ordinary differential Equations and plotted it
