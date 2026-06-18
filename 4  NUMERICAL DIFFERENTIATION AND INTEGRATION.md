@@ -303,6 +303,8 @@ plt.show()
 
 **OUTPUT**
 
+<img src= "https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%204/8.png" width ="500">
+
 4. 
  
 import numpy as np
