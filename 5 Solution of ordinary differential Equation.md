@@ -1,17 +1,27 @@
-EXP NO: 5										
-Solution of ordinary differential Equation
-OBJECTIVE
+**EXP NO: 5**										
+
+**Solution of ordinary differential Equation**
+
+**OBJECTIVE**
+	
 	To solve ordinary differential Equation
-LEARNING OUTCOMES
+
+**LEARNING OUTCOMES**
+
 	After the completion of this experiment students will be able to solve  ordinary differential Equation
-SOFTWARE USED: 
-                 Spider
+
+**SOFTWARE USED:**
+
+Spider
 
 1. Solve the first order differential equation
 
 (dx )/dt+2x=0
+
 With initial condition x(0)=1
-PROGRAM
+
+**PROGRAM**
+
 import numpy as np
 from scipy.integrate import odeint
 
