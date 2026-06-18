@@ -305,7 +305,7 @@ plt.show()
 
 <img src= "https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%204/8.png" width ="500">
 
-4. 
+4. <img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%204/9.png" width="700">
  
 import numpy as np
 
