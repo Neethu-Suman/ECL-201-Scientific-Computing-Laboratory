@@ -61,16 +61,25 @@ plt.show()
 d2x/dt2+2 dx/dt  +2x=ℯ -t
 
 **Program**
+
 def model(y, t):
+
   """
+  
   This function defines the second order differential equation d2x/dt2 + 2 dx/dt + 2x = e-t.
+  
   """
+  
   x, v = y
+  
   dxdt = v
+  
   dvdt = -2 * v - 2 * x + np.exp(-t)
+  
   return [dxdt, dvdt]
 
-# Initial conditions
+#Initial conditions
+
 y0 = [0, 0]
 
 # Time points
