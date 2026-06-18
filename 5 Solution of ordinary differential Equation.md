@@ -4,11 +4,11 @@
 
 **OBJECTIVE**
 	
-	To solve ordinary differential Equation
+To solve ordinary differential Equation
 
 **LEARNING OUTCOMES**
 
-	After the completion of this experiment students will be able to solve  ordinary differential Equation
+After the completion of this experiment students will be able to solve  ordinary differential Equation
 
 **SOFTWARE USED:**
 
@@ -23,6 +23,7 @@ With initial condition x(0)=1
 **PROGRAM**
 
 import numpy as np
+
 from scipy.integrate import odeint
 
 def model(x, t):
@@ -31,28 +32,35 @@ def model(x, t):
   """
   return -2 * x
 
-# Initial condition
+#Initial condition
+
 x0 = 1
 
-# Time points
+#Time points
+
 t = np.linspace(0, 10, 100)
 
-# Solve the differential equation
+#Solve the differential equation
+
 x = odeint(model, x0, t)
 
-# Plot the solution
+#Plot the solution
+
 plt.plot(t, x)
+
 plt.xlabel('t')
+
 plt.ylabel('x(t)')
+
 plt.show()
 
-OUTPUT
+**OUTPUT**
  
-
 2. solve second order differential equation
+
 d2x/dt2+2 dx/dt  +2x=ℯ -t
 
-Program
+**Program**
 def model(y, t):
   """
   This function defines the second order differential equation d2x/dt2 + 2 dx/dt + 2x = e-t.
