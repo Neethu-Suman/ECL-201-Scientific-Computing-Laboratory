@@ -104,6 +104,7 @@ plt.show()
 
 **OUTPUT**
 
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%206/2.png" width="400">
  
 
 3.  Plot the histogram of random data. And add legends in plots.
