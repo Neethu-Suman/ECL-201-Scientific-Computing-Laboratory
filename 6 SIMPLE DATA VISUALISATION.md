@@ -1,45 +1,58 @@
-EXP NO: 6										
+**EXP NO: 6**										
 
-SIMPLE DATA VISUALISATION
+**SIMPLE DATA VISUALISATION**
 
-OBJECTIVE
+**OBJECTIVE**
+
 ●	To visualize the data in different ways
 
-1. Draw stem plots, line plots, box plots, bar plots and scatter plots with
-random data.
+1. Draw stem plots, line plots, box plots, bar plots and scatter plots with random data.
 
-PROGRAM
+**PROGRAM**
 
 import matplotlib.pyplot as plt
+
 import numpy as np
 
-# Generate some random data
+#Generate some random data
+
 x = np.random.rand(5)
+
 y = np.random.rand(5)
 
-# Create a figure with 5 subplots
+#Create a figure with 5 subplots
+
 fig, axs = plt.subplots(1, 4, figsize=(20, 5))
 
-# Plot the data as a stem plot on the first subplot
+#Plot the data as a stem plot on the first subplot
+
 axs[0].stem(x)
+
 axs[0].set_title('Stem Plot')
 
-# Plot the data as a line plot on the second subplot
+#Plot the data as a line plot on the second subplot
+
 axs[1].plot(x,y)
+
 axs[1].set_title('Line Plot')
 
-# Plot the data as a box plot on the third subplot
+#Plot the data as a box plot on the third subplot
+
 axs[2].boxplot(x)
+
 axs[2].set_title('Box Plot')
 
-# Plot the data as a bar plot on the fourth subplot
+#Plot the data as a bar plot on the fourth subplot
+
 axs[3].scatter(x, y)
+
 axs[3].set_title('Scatter Plot')
 
-# Show the figure
+#Show the figure
+
 plt.show()
 
-OUTPUT
+**OUTPUT**
  
 x
 Out[24]: array([0.1039641 , 0.83258058, 0.29389689, 0.84802476, 0.6458698 ])
