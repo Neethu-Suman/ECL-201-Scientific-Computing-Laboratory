@@ -146,8 +146,7 @@ plt.show()
 
 **OUTPUT**
 
-
- 
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%206/3.png" width="400">
 
 4. Implement and plot the functions with t = [-10; 10] with increment 0:01
 
