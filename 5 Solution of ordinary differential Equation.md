@@ -108,6 +108,7 @@ plt.show()
 
 **OUTPUT**
 
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%205/2.png" width="400">
 
 **INFERENCE:**
 
