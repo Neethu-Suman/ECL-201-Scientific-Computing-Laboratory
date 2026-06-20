@@ -14,65 +14,75 @@ import matplotlib.pyplot as plt
 
 import numpy as np
 
-#Generate some random data
+Generate some random data
 
 x = np.random.rand(5)
 
 y = np.random.rand(5)
 
-#Create a figure with 5 subplots
+Create a figure with 5 subplots
 
 fig, axs = plt.subplots(1, 4, figsize=(20, 5))
 
-#Plot the data as a stem plot on the first subplot
+Plot the data as a stem plot on the first subplot
 
 axs[0].stem(x)
 
 axs[0].set_title('Stem Plot')
 
-#Plot the data as a line plot on the second subplot
+Plot the data as a line plot on the second subplot
 
 axs[1].plot(x,y)
 
 axs[1].set_title('Line Plot')
 
-#Plot the data as a box plot on the third subplot
+Plot the data as a box plot on the third subplot
 
 axs[2].boxplot(x)
 
 axs[2].set_title('Box Plot')
 
-#Plot the data as a bar plot on the fourth subplot
+Plot the data as a bar plot on the fourth subplot
 
 axs[3].scatter(x, y)
 
 axs[3].set_title('Scatter Plot')
 
-#Show the figure
+Show the figure
 
 plt.show()
 
 **OUTPUT**
  
 x
+
 Out[24]: array([0.1039641 , 0.83258058, 0.29389689, 0.84802476, 0.6458698 ])
+
 y
+
 Out[25]: array([0.26463336, 0.54671308, 0.42698847, 0.01637255, 0.9540992 ])
 
 2. Plot the bar chart that displays the supply of different fruits (apple, blueberry, cherry, and orange) with corresponding colors (red, blue, and orange). Include bar labels and bar colors as 'red', 'blue', '_red', and 'orange', a title for the chart, and a legend for the fruit colors.
 
-Program 
+**Program** 
+
 import matplotlib.pyplot as plt
+
 fruits = ['apple', 'blueberry', 'cherry', 'orange']
+
 counts = [40, 100, 30, 55]
+
 bar_labels = ['red', 'blue', '_red', 'orange']
-bar_colors = ['tab:red', 'tab:blue', 'tab:red', 
-              'tab:orange']
-# Plot each bar individually so that each one can have a separate label
+
+bar_colors = ['tab:red', 'tab:blue', 'tab:red', 'tab:orange']
+
+#Plot each bar individually so that each one can have a separate label
+
 for i in range(len(fruits)):
-    plt.bar(fruits[i], counts[i], label=bar_labels[i], 
-            color=bar_colors[i])
-# Create the bars
+
+plt.bar(fruits[i], counts[i], label=bar_labels[i], color=bar_colors[i])
+
+#Create the bars
 bars = plt.bar(fruits, counts, color=bar_colors)
 # Add labels on top of each bar
 for bar, count in zip(bars, counts):
