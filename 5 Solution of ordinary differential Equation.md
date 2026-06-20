@@ -55,7 +55,9 @@ plt.ylabel('x(t)')
 plt.show()
 
 **OUTPUT**
- 
+
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%205/1.png" width ="400">
+
 2. solve second order differential equation
 
 d2x/dt2+2 dx/dt  +2x=ℯ -t
@@ -105,7 +107,8 @@ plt.ylabel('x(t)')
 plt.show()
 
 **OUTPUT**
- 
+
+
 **INFERENCE:**
 
 Solved the ordinary differential Equations and plotted it
