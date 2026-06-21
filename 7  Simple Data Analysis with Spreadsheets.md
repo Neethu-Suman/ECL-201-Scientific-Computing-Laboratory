@@ -79,7 +79,6 @@ plt.title('Histogram of Cosine Signal')
 plt.show()
 
 **OUTPUT**
-
  
 
 Mean: 0.0009999999999999148
