@@ -85,10 +85,8 @@ plt.show()
 Mean: 0.0009999999999999148
 Standard deviation: 0.7074595394791139
 
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%207/2.png" width="400">
 
- 
+**INFERENCE**
 
-
-
-INFERENCE
-	Familiarized with basic Simple Data Analysis using CSV file
+Familiarized with basic Simple Data Analysis using CSV file
