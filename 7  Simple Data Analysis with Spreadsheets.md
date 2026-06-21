@@ -80,6 +80,7 @@ plt.show()
 
 **OUTPUT**
  
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%207/1.png" width ="400">
 
 Mean: 0.0009999999999999148
 Standard deviation: 0.7074595394791139
