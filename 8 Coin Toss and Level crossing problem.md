@@ -1,17 +1,30 @@
-EXP NO: 8										
-Coin Toss and Level crossing problem
-OBJECTIVE
+**EXP NO: 8**										
+
+**Coin Toss and Level crossing problem**
+
+**OBJECTIVE**
+
 ●	To understand and explore random process simulation
+
 1. Simulate a coin toss that maps a head as 1 and tail as 0. Toss the coin N = 100, 500,1000, 5000 and 500000 times and compute the probability (p) of head in each case. Compute the absolute error |0.5 - p| in each case and plot against N and understand the law of large numbers.
-PROGRAM
+
+**PROGRAM**
+
 import numpy as np
+
 import matplotlib.pyplot as plt
-# Define the number of trials for each experiment
+
+#Define the number of trials for each experiment
+
 N_values = [100, 500, 1000, 5000, 500000]
-# Initialize empty lists to store the probabilities and absolute errors
+
+#Initialize empty lists to store the probabilities and absolute errors
+
 probabilities = []
+
 absolute_errors = []
-# Loop through each number of trials
+
+#Loop through each number of trials
 for N in N_values:
   # Initialize counter for heads
   heads_count = 0
