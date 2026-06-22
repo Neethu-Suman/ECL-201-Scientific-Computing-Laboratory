@@ -103,20 +103,33 @@ plt.title('Uniform Random Vector')
 plt.show()
 
 #Set a threshold (VT = 2)
+
 VT = 2
-# Count how many times the random function has crossed VT
+
+#Count how many times the random function has crossed VT
+
 crossings = np.sum(np.abs(v) > VT)
-# Count how many times the function has gone above and below the threshold
+
+#Count how many times the function has gone above and below the threshold
+
 above_threshold = np.sum(v > VT)
+
 below_threshold = np.sum(v < VT)
-# Print the results
+
+#Print the results
+
 print(f'Number of crossings: {crossings}')
+
 print(f'Number of times above threshold: {above_threshold}')
+
 print(f'Number of times below threshold: {below_threshold}')
  
 Number of crossings: 6
+
 Number of times above threshold: 6
+
 Number of times below threshold: 2
 
-INFERENCE
-	Familiarized with basic random process functions and used it in simulating coin toss and level crossing problem
+**INFERENCE**
+
+Familiarized with basic random process functions and used it in simulating coin toss and level crossing problem
