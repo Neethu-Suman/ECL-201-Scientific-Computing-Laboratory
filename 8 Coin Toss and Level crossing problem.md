@@ -14,7 +14,7 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-#/Define the number of trials for each experiment
+#Define the number of trials for each experiment
 
 N_values = [100, 500, 1000, 5000, 500000]
 
@@ -72,23 +72,37 @@ plt.title('Law of Large Numbers')
 
 plt.show()
 
-OUTPUT
+**OUTPUT**
  
 2. Create a uniform random vector with a maximum magnitude of 10, plot, and observe. Set a threshold (VT = 2) and count how many times the random function has crossed VT. Count how many times the function has gone above and below the threshold.
-PROGRAM
+
+**PROGRAM**
+
 import numpy as np
+
 import matplotlib.pyplot as plt
-# Generate a uniform random vector with maximum magnitude 10
+
+#Generate a uniform random vector with maximum magnitude 10
+
 v = 10 * (np.random.rand(10))
+
 x = range(10)
-# Plot the random vector
+
+#Plot the random vector
+
 plt.scatter(x,v)
+
 plt.axhline(y=2, color='r', linestyle='--', label='Threshold VT = 2')  # Adding a line at VT = 2
+
 plt.xlabel('Index')
+
 plt.ylabel('Value')
+
 plt.title('Uniform Random Vector')
+
 plt.show()
-# Set a threshold (VT = 2)
+
+#Set a threshold (VT = 2)
 VT = 2
 # Count how many times the random function has crossed VT
 crossings = np.sum(np.abs(v) > VT)
