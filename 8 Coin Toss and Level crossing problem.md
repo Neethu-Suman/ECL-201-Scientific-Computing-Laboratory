@@ -14,7 +14,7 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-#Define the number of trials for each experiment
+#/Define the number of trials for each experiment
 
 N_values = [100, 500, 1000, 5000, 500000]
 
@@ -25,28 +25,51 @@ probabilities = []
 absolute_errors = []
 
 #Loop through each number of trials
+
 for N in N_values:
-  # Initialize counter for heads
-  heads_count = 0
-  # Simulate N coin tosses
-  for i in range(N):
-    # Generate a random number between 0 and 1
-    random_number = np.random.rand()
-    # If the random number is less than 0.5, count it as a head
-    if random_number > 0.5:
-      heads_count += 1
-  # Calculate the probability of heads
-  probability = heads_count / N
-  # Calculate the absolute error
-  absolute_error = abs(0.5 - probability)
-  # Append the values to the lists
-  probabilities.append(probability)
-  absolute_errors.append(absolute_error)
-# Plot the absolute errors against N
+
+#Initialize counter for heads
+
+heads_count = 0
+
+#Simulate N coin tosses
+
+for i in range(N):
+
+#Generate a random number between 0 and 1
+
+random_number = np.random.rand()
+
+#If the random number is less than 0.5, count it as a head
+
+if random_number > 0.5:
+
+heads_count += 1
+
+#Calculate the probability of heads
+
+probability = heads_count / N
+
+#Calculate the absolute error
+
+absolute_error = abs(0.5 - probability)
+
+#Append the values to the lists
+
+probabilities.append(probability)
+
+absolute_errors.append(absolute_error)
+
+#Plot the absolute errors against N
+
 plt.plot(N_values, absolute_errors)
+
 plt.xlabel('Number of Trials (N)')
+
 plt.ylabel('Absolute Error (|0.5 - p|)')
+
 plt.title('Law of Large Numbers')
+
 plt.show()
 
 OUTPUT
