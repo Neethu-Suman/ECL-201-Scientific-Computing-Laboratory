@@ -128,7 +128,7 @@ print(f'Number of times below threshold: {below_threshold}')
 
 **OUTPUT**
 
-
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%208/2.png" width="400">
  
 Number of crossings: 6
 
