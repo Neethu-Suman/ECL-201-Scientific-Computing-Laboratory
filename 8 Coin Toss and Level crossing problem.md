@@ -73,6 +73,8 @@ plt.title('Law of Large Numbers')
 plt.show()
 
 **OUTPUT**
+
+<img src="https://github.com/Neethu-Suman/ECL-201-Scientific-Computing-Laboratory/blob/main/CODES/EXP%208/1.png" width="400">
  
 2. Create a uniform random vector with a maximum magnitude of 10, plot, and observe. Set a threshold (VT = 2) and count how many times the random function has crossed VT. Count how many times the function has gone above and below the threshold.
 
@@ -123,6 +125,8 @@ print(f'Number of crossings: {crossings}')
 print(f'Number of times above threshold: {above_threshold}')
 
 print(f'Number of times below threshold: {below_threshold}')
+
+**OUTPUT**
  
 Number of crossings: 6
 
